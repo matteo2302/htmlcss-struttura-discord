@@ -3,7 +3,7 @@
   --space-m: rgb(30, 144, 255);
   --space-l: rgb(34, 139, 34);
   --grey-back: rgb(211, 211, 211);
-
+  --foter-logos: rgb(255, 182, 193);
   --footer-bg: rgb(35, 39, 42);
   --info-bg: rgb(32, 178, 170);
 }
@@ -114,4 +114,31 @@ footer {
 
   width: calc(100% / 4);
   border: 2px dashed white;
+}
+.footer-end {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-container-end {
+  height: 70px;
+  width: 1180px;
+  background-color: rgb(127, 255, 212);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button,
+.logo {
+  background-color: rgb(255, 182, 193);
+  border: 2px dashed black;
+  height: 40px;
+}
+.logo {
+  width: 70px;
+}
+.button {
+  width: 100px;
 }
