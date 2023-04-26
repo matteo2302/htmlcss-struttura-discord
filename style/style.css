@@ -1,0 +1,50 @@
+:root {
+  --space-s: rgb(255, 192, 203);
+  --space-m: rgb(30, 144, 255);
+  --space-l: rgb(34, 139, 34);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head-top {
+  min-height: 80px;
+  background-color: rgb(173, 216, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-nav {
+  height: 50px;
+  background-color: rgb(218, 165, 32);
+  width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-logo,
+.head-link,
+.head-login {
+  border: 2px dashed black;
+  height: 50px;
+  flex-grow: 1;
+}
+.head-link {
+  width: 50%;
+}
+.head-main {
+  height: 500px;
+  background-color: rgb(0, 0, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-subject {
+  width: 900px;
+  height: 400px;
+  background-color: rgb(238, 130, 238);
+  border: 2px dashed black;
+}
